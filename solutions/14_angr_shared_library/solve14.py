@@ -7,6 +7,7 @@ import claripy
 import sys
 
 def main(argv):
+  # Should attach to the library, e.g. lib14_angr_shared_library.so, not the executable
   path_to_binary = argv[1]
 
   # The shared library is compiled with position-independent code. You will need
